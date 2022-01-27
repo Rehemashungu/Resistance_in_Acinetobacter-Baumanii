@@ -10,7 +10,7 @@ The aim of the paper was to understand, identify and study the population and/or
 
  2. From the ENA, I opt to use only 10 genomes reads
 
- 3. For the mapping and alignment to the reference genome, i will use the following pipeline.
+ 3. For the mapping and alignment to the reference genome, i will use the following bioinformatics tools
       - The Burrows-Wheeler Transform
       - Bowtie2
       - SAMtools
