@@ -10,7 +10,7 @@ The aim of the paper was to understand, identify and study the population and/or
 
  2. From the SRA-NCBI, I opt to use only `20 genomes reads` to retrieve the NGS data
 	- download `sratools-kit 2.10.9`
-	- using the `,/prefetch command`
+	- using the `./prefetch command`
 	- convert each SRA file to fastq format using the command, `./fastq-dump --split files *.sra`
 
  3. Quality control using fastp command,`fastp --in1 *_1.fastq --in2 *_2.fastq --out1 *_1_trimmed.fastq --out2 *_2_trimmed.fastq -l 30 -h *.html &> *.log`
